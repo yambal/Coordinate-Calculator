@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="ripple.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="display">
+			<div id="map"></div>
+			<div id="iquidCrystal">
+				<div id="col-status">s</div>
+				<div id="col-input">
+					<div id="col-input-latlng">
+						<div class="col-lat"><div class="table"><div class="m">lat</div><div id="input-lat" class="m"></div></div></div>
+						<div class="col-lng"><div class="table"><div class="m">lng</div><div id="input-lng" class="m"></div></div></div>
+						<div class="col-other"><div class="table"><div id="input-other" class="m"></div></div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="keyboad">
+			<div class="row row20">
+				<div class="col20 key material-ripple" data-key=""><div class="table"><div class="mc">x</div></div></div>
+				<div class="col20 key material-ripple" data-key=""><div class="table"><div class="mc">x</div></div></div>
+				<div class="col20 key material-ripple" data-key=""><div class="table"><div class="mc">x</div></div></div>
+				<div class="col20 key material-ripple" data-key=""><div class="table"><div class="mc">x</div></div></div>
+				<div class="col20 key material-ripple" data-key=""><div class="table"><div class="mc">x</div></div></div>
+			</div>
+			<div class="row row20">
+				<div class="col20 key material-ripple" data-key="del"><div class="table"><div class="mc">DEL</div></div></div>
+				<div class="col20 key material-ripple number-key" data-key="7"><div class="table"><div class="mc">7</div></div></div>
+				<div class="col20 key material-ripple number-key" data-key="8"><div class="table"><div class="mc">8</div></div></div>
+				<div class="col20 key material-ripple number-key" data-key="9"><div class="table"><div class="mc">9</div></div></div>
+				<div class="col20 key material-ripple" data-key="lat"><div class="table"><div class="mc">lat</div></div></div>
+			</div>
+			<div class="row row20">
+				<div class="col20 key material-ripple" data-key="ac"><div class="table"><div class="mc">AC</div></div></div>
+				<div class="col20 key material-ripple number-key" data-key="4"><div class="table"><div class="mc">4</div></div></div>
+				<div class="col20 key material-ripple number-key" data-key="5"><div class="table"><div class="mc">5</div></div></div>
+				<div class="col20 key material-ripple number-key" data-key="6"><div class="table"><div class="mc">6</div></div></div>
+				<div class="col20 key material-ripple" data-key="lng"><div class="table"><div class="mc">lng</div></div></div>
+			</div>
+			<div class="row row20">
+				<div class="col20 key material-ripple" data-key=""><div class="table"><div class="mc">x</div></div></div>
+				<div class="col20 key material-ripple number-key" data-key="1"><div class="table"><div class="mc">1</div></div></div>
+				<div class="col20 key material-ripple number-key" data-key="2"><div class="table"><div class="mc">2</div></div></div>
+				<div class="col20 key material-ripple number-key" data-key="3"><div class="table"><div class="mc">3</div></div></div>
+				<div class="col20 key material-ripple" data-key="n"><div class="table"><div class="mc">n</div></div></div>
+			</div>
+			<div class="row row20">
+				<div class="col20 key material-ripple" data-key="back"><div class="table"><div class="mc">back</div></div></div>
+				<div class="col20 key material-ripple number-key" data-key="0"><div class="table"><div class="mc">0</div></div></div>
+				<div class="col20 key material-ripple number-key" data-key="."><div class="table"><div class="mc">.</div></div></div>
+				<div class="col20 key material-ripple" data-key="="><div class="table"><div class="mc">=</div></div></div>
+				<div class="col20 key material-ripple" data-key="-"><div class="table"><div class="mc">-</div></div></div>
+			</div>
+		</div>
+		<script src="jquery-3.2.1.min.js"></script>
+		<script src="ripple.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>

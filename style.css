@@ -1,0 +1,114 @@
+html, body{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+#display{
+	width:100vmin;
+	height: calc(100vmax - 100vmin);
+}
+#map{
+	height: calc(100vmax - 125vmin);
+}
+#iquidCrystal{
+	height: 25vmin;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+#keyboad{
+	width:100vmin;
+	height: 100vmin;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+.row25{
+	height: 25%;
+}
+.row20{
+	height: 20%;
+}
+.col25{
+	flex-grow: 1;
+	flex-shrink: 1;
+	width: 25%;
+}
+.col20{
+	flex-grow: 1;
+	flex-shrink: 1;
+	width: 20%;
+}
+.col50{
+	flex-grow: 1;
+	flex-shrink: 1;
+	width: 50%;
+}
+.col-g1{
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.col-g2{
+	flex-grow: 2.25;
+	flex-shrink: 0;
+}
+#col-status{
+	width: 15vmin;
+	font-size: 7.5vmin;
+}
+#col-input{
+	width:  calc(100vmax - 7.5vmin);
+}
+#col-input-latlng{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+	height: 100%;
+}
+.col-lat,.col-lng,.col-other{
+	flex-grow: 1;
+	height: 50%;
+}
+.table{
+	display: table;
+	width:100%;
+	height: 100%;
+}
+.table .mc{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.table .m{
+	display: table-cell;
+	vertical-align: middle;
+}
+.key{
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,0.125);
+	border-radius: 2vmin;
+	font-size: 7.5vmin;
+}
+.number-key{
+	background-color: black;
+	color: white;
+}
+
+.col-lat.active,
+.col-lng.active,
+.col-other.active{
+	background-color: rgba(0,0,0,0.125);
+}
